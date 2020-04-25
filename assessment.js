@@ -22,7 +22,7 @@ assesssmentButton.onclick=()=>{//onclick=function(){}(無名関数)と同じ
     }
     console.log(userName);
 
-    //診断結果表示エリアの作成 
+    //診断結果表示エリアの作成
     removeAllChildren(resultDivided);
     const header=document.createElement('h3');//要素を作成する;まず要素(<h3>)を作成、プロパティを用いてタグの中身を変更できる
     header.innerText='診断結果';//内側のテキスト
